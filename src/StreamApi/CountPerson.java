@@ -10,6 +10,7 @@ public class CountPerson
 	public static void main(String[] args) 
 	{
 
+		System.out.println("creating list pf person");
 		Person p= new Person(1,"nikhil", 27);
 		Person p1= new Person(2, "Akshay", 26);
 		Person p3= new Person(3,"vbv", 27);
