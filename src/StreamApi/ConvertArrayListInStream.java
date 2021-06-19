@@ -7,6 +7,7 @@ public class ConvertArrayListInStream {
 
 	public static void main(String[] args) {
 
+		System.out.println("craate list");
 		List<String> stringList = new ArrayList<>();
 		stringList.add("nikhil");
 		stringList.add("akshay");
