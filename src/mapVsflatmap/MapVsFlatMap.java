@@ -19,9 +19,10 @@ public static void main(String[] args) {
 	System.out.println(phoneNumbers);
 	
 	
-	List<String> phoneNumer=customers.stream()
-			                          .flatMap(customer -> customer.getPhoneNumbers() .stream()
-			                                       .collect(Collectors.toList()));
+	/*
+	 * List<String> phoneNumer=customers.stream() .flatMap(customer ->
+	 * customer.getPhoneNumbers() .stream() .collect(Collectors.toList()));
+	 */
 	
 	
 	
